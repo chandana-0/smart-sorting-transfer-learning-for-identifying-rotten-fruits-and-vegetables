@@ -30,25 +30,9 @@ Produce quality checker in a supermarket / Vendor at a local market
 - “I wish there was a faster, more reliable way to sort produce.”  
 - “I don’t want to throw away good fruits by mistake.”
 
-**💭 Thinks**  
-- “Am I sorting these items correctly?”  
-- “Customers might complain if I miss something bad.”  
-- “I could save time and waste if I had a smart tool.”
-
-**🤲 Does**  
-- Inspects fruits and vegetables manually  
-- Relies on experience or guesswork  
-- Sorts quickly to keep up with workflow
-
-**💡 Feels**  
-- Stressed and uncertain during decision-making  
-- Frustrated by mistakes or complaints  
-- Hopeful that technology could help
 
 ### 2.3 Brainstorming  
 - Use VGG16 for transfer learning
-   ![home page](https://github.com/chandana-0/smart-sorting-transfer-learning-for-identifying-rotten-fruits-and-vegetables/blob/main/forms/Screenshot%202025-06-27%20115619.png)
-  
 - Web interface for uploads and predictions  
 - Display confidence and feedback  
 - Grad-CAM for model transparency
@@ -58,7 +42,8 @@ Produce quality checker in a supermarket / Vendor at a local market
 ## 3. Requirement Analysis
 
 ### 3.1 Customer Journey Map  
-User → Upload Image → Model Predicts Class → Result Displayed 
+
+![home page](https://github.com/chandana-0/smart-sorting-transfer-learning-for-identifying-rotten-fruits-and-vegetables/blob/main/forms/customer%20journey.png)
 
 ### 3.2 Solution Requirement  
 **Functional:**  
@@ -72,7 +57,8 @@ User → Upload Image → Model Predicts Class → Result Displayed
 - Reliable predictions
 
 ### 3.3 Data Flow Diagram  
-[User Upload] → [Flask API] → [Preprocessing] → [Model Prediction] → [Result Page]
+
+![home page](https://github.com/chandana-0/smart-sorting-transfer-learning-for-identifying-rotten-fruits-and-vegetables/blob/main/forms/Data%20flow%20.png)
 
 ### 3.4 Technology Stack  
 **Frontend:** HTML5, CSS3  
@@ -80,18 +66,23 @@ User → Upload Image → Model Predicts Class → Result Displayed
 **Database:** Kaggle  
 **Others:** TensorFlow, Keras, PIL, NumPy
 
+![home page](https://github.com/chandana-0/smart-sorting-transfer-learning-for-identifying-rotten-fruits-and-vegetables/blob/main/forms/Screenshot%202025-06-27%20135811.png)
+
 ---
 
 ## 4. Project Design
 
 ### 4.1 Problem Solution Fit  
-Automates traditional sorting with a pre-trained CNN, offering consistent and fast decisions.
+## Automates traditional sorting with a pre-trained CNN, offering consistent and fast decisions.
+![home page](https://github.com/chandana-0/smart-sorting-transfer-learning-for-identifying-rotten-fruits-and-vegetables/blob/main/forms/Screenshot%202025-06-27%20135913.png)
 
 ### 4.2 Proposed Solution  
 Flask-powered web interface with a VGG16 model to classify 29 categories based on freshness.
-
+ ![home page](https://github.com/chandana-0/smart-sorting-transfer-learning-for-identifying-rotten-fruits-and-vegetables/blob/main/forms/Screenshot%202025-06-27%20115619.png)
+ 
 ### 4.3 Solution Architecture  
-User Upload → Flask Server → Model Prediction → Output to Frontend
+## User Upload → Flask Server → Model Prediction → Output to Frontend
+![home page](https://github.com/chandana-0/smart-sorting-transfer-learning-for-identifying-rotten-fruits-and-vegetables/blob/main/forms/Screenshot%202025-06-27%20135458.png)
 
 ---
 
@@ -109,10 +100,11 @@ User Upload → Flask Server → Model Prediction → Output to Frontend
 
 ### 6.1 Performance Testing  
 ## Accuracy evaluated on validation set
+ 
 ![home page](https://github.com/chandana-0/smart-sorting-transfer-learning-for-identifying-rotten-fruits-and-vegetables/blob/main/forms/Screenshot%202025-06-27%20115251.png)
     
 ## Testing on unseen samples  
-![home page](https://github.com/chandana-0/smart-sorting-transfer-learning-for-identifying-rotten-fruits-and-vegetables/blob/main/forms/Screenshot%202025-06-27%20115446.png)
+![home page](https://github.com/chandana-0/smart-sorting-transfer-learning-for-identifying-rotten-fruits-and-vegetables/blob/main/forms/Screenshot%202025-06-27%20135708.png)
 
 ---
 
