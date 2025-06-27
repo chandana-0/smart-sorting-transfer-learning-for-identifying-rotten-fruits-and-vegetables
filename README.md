@@ -46,7 +46,9 @@ Produce quality checker in a supermarket / Vendor at a local market
 - Hopeful that technology could help
 
 ### 2.3 Brainstorming  
-- Use VGG16 for transfer learning  
+- Use VGG16 for transfer learning
+   ![home page](https://github.com/chandana-0/smart-sorting-transfer-learning-for-identifying-rotten-fruits-and-vegetables/blob/main/forms/Screenshot%202025-06-27%20115619.png)
+  
 - Web interface for uploads and predictions  
 - Display confidence and feedback  
 - Grad-CAM for model transparency
@@ -62,7 +64,7 @@ User → Upload Image → Model Predicts Class → Result Displayed
 **Functional:**  
 - Upload & classify images  
 - Display freshness result  
-- Feedback collection
+
 
 **Non-functional:**  
 - Easy to use  
@@ -75,7 +77,7 @@ User → Upload Image → Model Predicts Class → Result Displayed
 ### 3.4 Technology Stack  
 **Frontend:** HTML5, CSS3  
 **Backend:** Python, Flask  
-**Database:** Not applicable  
+**Database:** Kaggle  
 **Others:** TensorFlow, Keras, PIL, NumPy
 
 ---
@@ -106,17 +108,26 @@ User Upload → Flask Server → Model Prediction → Output to Frontend
 ## 6. Functional and Performance Testing
 
 ### 6.1 Performance Testing  
-- Accuracy evaluated on validation set  
-- Testing on unseen samples  
-- Grad-CAM validation to interpret model focus
+## Accuracy evaluated on validation set
+![home page](https://github.com/chandana-0/smart-sorting-transfer-learning-for-identifying-rotten-fruits-and-vegetables/blob/main/forms/Screenshot%202025-06-27%20115251.png)
+    
+## Testing on unseen samples  
+![home page](https://github.com/chandana-0/smart-sorting-transfer-learning-for-identifying-rotten-fruits-and-vegetables/blob/main/forms/Screenshot%202025-06-27%20115446.png)
 
 ---
 
 ## 7. Results
 
 ### 7.1 Output Screenshots  
-![home page](/static/assets/Screenshot2025-06-27092736.png)
+## Home Page
+![home page](https://github.com/chandana-0/smart-sorting-transfer-learning-for-identifying-rotten-fruits-and-vegetables/blob/main/static/assets/Screenshot%202025-06-27%20092736.png)
 
+## Content Page
+![home page](https://github.com/chandana-0/smart-sorting-transfer-learning-for-identifying-rotten-fruits-and-vegetables/blob/main/static/assets/Screenshot%202025-06-27%20092849.png)
+## Chossing Folder
+![home page](https://github.com/chandana-0/smart-sorting-transfer-learning-for-identifying-rotten-fruits-and-vegetables/blob/main/static/assets/Screenshot%202025-06-27%20092658.png)
+## Result 
+![home page](https://github.com/chandana-0/smart-sorting-transfer-learning-for-identifying-rotten-fruits-and-vegetables/blob/main/static/assets/Screenshot%202025-06-27%20100714.png)
 ## 8. Advantages & Disadvantages
 
 **Advantages**  
