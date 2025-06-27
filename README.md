@@ -115,7 +115,7 @@ User Upload → Flask Server → Model Prediction → Output to Frontend
 ## 7. Results
 
 ### 7.1 Output Screenshots  
-
+![home page](/static/assets/Screenshot2025-06-27092736.png)
 
 ## 8. Advantages & Disadvantages
 
