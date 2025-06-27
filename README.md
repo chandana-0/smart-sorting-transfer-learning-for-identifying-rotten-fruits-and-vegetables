@@ -124,7 +124,7 @@ User Upload → Flask Server → Model Prediction → Output to Frontend
 
 ## Content Page
 ![home page](https://github.com/chandana-0/smart-sorting-transfer-learning-for-identifying-rotten-fruits-and-vegetables/blob/main/static/assets/Screenshot%202025-06-27%20092849.png)
-## Chossing Folder
+## Uploading Folder
 ![home page](https://github.com/chandana-0/smart-sorting-transfer-learning-for-identifying-rotten-fruits-and-vegetables/blob/main/static/assets/Screenshot%202025-06-27%20092658.png)
 ## Result 
 ![home page](https://github.com/chandana-0/smart-sorting-transfer-learning-for-identifying-rotten-fruits-and-vegetables/blob/main/static/assets/Screenshot%202025-06-27%20100714.png)
