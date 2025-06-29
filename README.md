@@ -25,9 +25,7 @@ To automate the sorting process of produce, ensuring faster and more accurate id
 **Database:** Kaggle  
 **Others:** TensorFlow, Keras, PIL, NumPy
 
-
 ---
-
 
 ## User Upload → Flask Server → Model Prediction → Output to Frontend
 ![home page](https://github.com/chandana-0/smart-sorting-transfer-learning-for-identifying-rotten-fruits-and-vegetables/blob/main/forms/Screenshot%202025-06-27%20135458.png)
@@ -35,23 +33,17 @@ To automate the sorting process of produce, ensuring faster and more accurate id
 ---
 
 ###  Project Planning  
-- Week 1: Data handling & cleaning  
-- Week 2: Model setup and training  
-- Week 3: Flask integration  
-- Week 4: Testing & documentation
+- Day 1: Data handling & cleaning  
+- Day 2: Model setup and training  
+- Day 3: Flask integration  
+- Day 4: Testing & documentation
 
 ---
-
-## 6. Functional and Performance Testing
-
 
 ## Accuracy evaluated on validation set
  
 ![home page](https://github.com/chandana-0/smart-sorting-transfer-learning-for-identifying-rotten-fruits-and-vegetables/blob/main/forms/Screenshot%202025-06-27%20115251.png)
     
-
-
-
 ###  Output Screenshots  
 ## Home Page
 ![home page](https://github.com/chandana-0/smart-sorting-transfer-learning-for-identifying-rotten-fruits-and-vegetables/blob/main/static/assets/Screenshot%202025-06-27%20092736.png)
@@ -91,6 +83,7 @@ Smart Sorting shows how deep learning and web deployment can simplify a real-wor
 
 **Dataset:** [https://www.kaggle.com/datasets/muhammad0subhan/fruit-and-vegetable-disease-healthy-vs-rotten]  
 **GitHub Repository:** [https://github.com/chandana-0/smart-sorting-transfer-learning-for-identifying-rotten-fruits-and-vegetables]  
+**Demo:**[https://drive.google.com/file/d/1uDEAPnKfRWURNXYGk3fW1pbKYwaghHDj/view?usp=sharing]
 
 
 
